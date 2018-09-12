@@ -50,8 +50,9 @@ $(function() {
         case "Mult":
           kindCalculation = "*";
           break;
-        default:
+        case "Reset":
           kindCalculation = "";
+          break;
       }
       $("#kind").text(kindCalculation);
 
