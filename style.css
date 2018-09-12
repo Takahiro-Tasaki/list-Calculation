@@ -1,0 +1,83 @@
+body {
+  color: #004c8c;
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 600px;
+}
+
+.title {
+  color: #004c8c;
+  text-align: center;
+}
+
+.calculation {
+  border: solid 4px #004c8c;
+  border-collapse: collapse;
+  margin: 0 auto 50px;
+  width: 450px;
+  
+}
+
+.calculation tr,
+.calculation td {
+  border: solid 1px #004c8c;
+}
+
+.calculation caption {
+  text-align: center;
+}
+
+.calculation td {
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  width: 40px;
+}
+
+.calculation tr:first-child td {
+  border-bottom: solid 2px #004c8c;
+}
+
+.calculation tr td:first-child {
+  border-right: solid 2px #004c8c;
+}
+
+.calculation tr:not(:first-child):nth-child(odd) td:not(:first-child):nth-child(even),
+.calculation tr:not(:first-child):nth-child(even) td:not(:first-child):nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.wrapper-button {
+  text-align: center;
+}
+
+.button {
+  background: #004c8c;
+  border: dashed 1px #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #004c8c;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  height: 100px;
+  line-height: 100px;
+  overflow: hidden;
+  text-align: center;
+  transition: .4s;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.button:not(:first-child) {
+  margin-left: 20px;
+}
+
+.button:hover {
+  background: #668ad8;
+  box-shadow: 0 0 0 5px #668ad8;
+  cursor: pointer;
+}
